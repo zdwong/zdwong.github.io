@@ -178,8 +178,8 @@ nav a:hover {
   display: grid;
   grid-template-columns: 140px 1fr;
   gap: 22px;
-  margin-bottom: 28px;
-  padding-bottom: 24px;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
   border-bottom: 1px solid var(--border);
 }
 
