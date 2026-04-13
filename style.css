@@ -78,7 +78,6 @@ nav a:hover {
 
 .hero-content {
   display: block;
-  max-width: 700px;
   gap: 28px;
   align-items: start;
 }
@@ -98,6 +97,10 @@ nav a:hover {
 
 .hero-desc {
   color: var(--muted);
+  max-width: 700px;
+}
+
+.hero-text {
   max-width: 700px;
 }
 
