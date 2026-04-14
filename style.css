@@ -1,7 +1,7 @@
 :root {
   --bg: #f7f9fc;
   --surface: #ffffff;
-  --text: #1f2937;
+  --text: #4a4a4a;
   --muted: #6b7280;
   --primary: #2563eb;
   --primary-dark: #1d4ed8;
@@ -104,9 +104,9 @@ nav a:hover {
 
 .subtitle {
   max-width: 900px;
-  font-size: 1.2rem;
-  color: var(--primary);
-  font-weight: 600;
+  font-size: 1rem;
+  color: var(--muted);
+  font-weight: normal;
   margin-bottom: 14px;
 }
 
@@ -262,6 +262,10 @@ nav a:hover {
   margin-bottom: 2px;
 }
 
+.pub-item strong a {
+  color: var(--text);
+}
+
 .pub-item .pub-authors {
   display: block;
   margin-top: 0;
@@ -283,9 +287,18 @@ nav a:hover {
   display: block;
 }
 
+.pub-item .pub-links a {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .note {
   color: var(--muted);
   margin-top: 18px;
+}
+
+.note a {
+  color: var(--muted);
 }
 
 .simple-list {
