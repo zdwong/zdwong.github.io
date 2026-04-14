@@ -245,7 +245,23 @@ nav a:hover {
 
 .pub-item strong {
   display: block;
+  margin-bottom: 2px;
+}
+
+.pub-item .pub-authors {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.pub-item .pub-conference-info {
+  display: block;
+  margin-top: 0;
   margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 0.85rem;
 }
 
 .pub-item .pub-links {
